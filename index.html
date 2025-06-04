@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> </title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+	<header>
+<h1>Rajmata Ahilyabai Holkar</h1>
+<h4>Visionary Ruler, Devoted Leader, and Architect of Progress</h4>
+
+
+<select id="themeSelect">
+    <option value="default">Light Mode</option>
+    <option value="dark">Dark Mode</option>
+    <option value="royal">Royal Theme</option>
+</select>
+
+
+
+
+
+</header>
+
+<nav> 
+	<ul>
+	   <li> <a href="#timeline">Timeline</a> </li>
+       <li> <a href="#legacy">Legacy</a> </li>
+       <li> <a href="#documents">Historical Documents</a> </li>
+       <li> <a href="#gallery">Gallery</a> </li>
+       <li> <a href="#about">Ask</a> </li>
+    </ul>
+</nav>
+
+<div id="container">
+
+<section id="timeline">
+	       <h2>Timeline</h2>
+	       <p>Explore the major events that shaped Ahilyabai Holkar's rule.</p>
+	<ul>
+                <li><strong>1725:</strong> Birth of Ahilyabai Holkar</li>
+                <li><strong>1765:</strong> Ascended to the throne of Malwa</li>
+                <li><strong>1780:</strong> Established temples and dharamshalas</li>
+                <li><strong>1795:</strong> Passed away, leaving a lasting legacy</li>
+    </ul>
+</section>
+
+<section id="legacy">
+            <h2>Legacy & Achievements</h2>
+             <center>
+        <h1>अहिल्याबाई होलकर: न्याय, समृद्धि और धर्म की प्रतीक</h1>
+        <hr color="gold" size="4">
+
+        <table border="3" width="80%" cellpadding="10">
+            <tr>
+                <td align="center"><b>शासन और आर्थिक सुधार</b><br>अहिल्याबाई ने मालवा की समृद्धि को बढ़ाने के लिए न्यायसंगत नीतियों को लागू किया, करों में कटौती की और व्यापार तथा कृषि को सशक्त किया।...</td>
+            </tr>
+            <tr>
+                <td align="center"><b>धार्मिक और सामाजिक योगदान</b><br>काशी विश्वनाथ मंदिर, सोमनाथ मंदिर, तथा अन्य धार्मिक स्थलों का पुनर्निर्माण किया, जिससे तीर्थयात्रियों को सुविधा मिली।...</td>
+            </tr>
+            <tr>
+                <td align="center"><b>सैन्य शक्ति और नेतृत्व</b><br>उन्होंने कई युद्धों का नेतृत्व किया और अपने भाई-इन-लॉ तुकोजीराव होलकर के साथ मिलकर आक्रमणकारियों को परास्त किया।...</td>
+            </tr>
+            <tr>
+                <td align="center"><b>अमर विरासत</b><br>उनकी 300वीं जयंती पर आयोजित कार्यक्रमों में उनके योगदान को आधुनिक शासन से जोड़ने का प्रयास किया गया।...</td>
+            </tr>
+        </table>
+    </center>
+</section>
+
+
+<section id="documents">
+            <h2>Historical Documents</h2>
+    <p>Explore authentic records from Ahilyabai Holkar’s reign:</p>
+    <div class="document-container">
+        <a href="https://en.wikipedia.org/wiki/Ahilyabai_Holkar" target="_blank" class="document-item">
+            <span>Ahilyabai Holkar - Wikipedia</span>
+        </a>
+
+        <a href="https://historified.in/2024/07/19/warrior-queen-wise-ruler-the-enduring-legacy-of-ahilya-bai-holkar/" target="_blank" class="document-item">
+            <span>Legacy & Records - Historified</span>
+        </a>
+    </div>
+
+
+</section>
+
+<section id="gallery">
+    <h2>Multimedia Gallery</h2>
+    <img src="Ahilyadevi Holkar.jfif" alt="Maharani Ahilyabai Holkar" onclick="toggleHistoryDiv('ahilyabai')">
+    <p>Explore visual representations of her life and work.</p>
+</section>
+
+<!-- 📌 नया `div` जो इमेज क्लिक होते ही खुलेगा -->
+<div id="popupContainer" class="popup-box">
+    <div class="popup-content">
+        <span class="close-button" onclick="hclosePopup()">&times;</span>
+        <h2 id="popupTitle"></h2>
+        <p id="popupText"></p>
+    </div>
+</div>
+
+
+
+<section id="chatbot">
+    <h2>Ask</h2>
+    <input type="text" id="userInput" placeholder="Ask Ahilyabai...">
+    <button onclick="getResponse()">Ask</button>
+
+<div id="popup" class="popup"> 
+    <div class="popupcontent">
+        <span class="close" onclick="closePopup()">&times;</span>
+        <h2 id="popup-title"></h2>
+        <p id="popup-text"></p>
+    </div>
+</div>
+
+
+
+</section>
+</section>
+
+
+
+
+
+
+
+
+</div>
+
+<footer id="about">
+    <p>© 2025 Rajmata Ahilyabai Holkar Website | Designed with ❤️ by [Bhaiya]</p>
+</footer>
+
+
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
